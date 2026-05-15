@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Analyser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">NutriSmart AI</div>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="analyser.html">Analyser</a></li>
+    <li><a href="dashboard.html">Dashboard</a></li>
+    <li><a href="recommendations.html">Meals</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="page-header">
+  <h1>Nutrition Analyser</h1>
+  <p>Receive AI-generated nutritional feedback.</p>
+</section>
+
+<section class="analyser-box">
+
+  <select id="food">
+    <option value="">Select a food</option>
+    <option>Pizza</option>
+    <option>Burger</option>
+    <option>Salad</option>
+    <option>Apple</option>
+    <option>Fries</option>
+    <option>Sushi</option>
+  </select>
+
+  <button onclick="analyseFood()">Analyse Food</button>
+
+  <div id="result"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
